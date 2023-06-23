@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
 public class CalculatorView {
-    public void displayResult(int result) {
+    public void displayResult(double result) {
 System.out.println("Результат: " + result);
 
 }
 
 
-public int getUserInput() {
+public double getUserInput() {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Введите число: ");
-    int input = scanner.nextInt();
+    double input = scanner.nextDouble();
     //scanner.close();
     return input;
     

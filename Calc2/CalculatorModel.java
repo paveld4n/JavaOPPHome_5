@@ -1,22 +1,22 @@
 
 public class CalculatorModel {
-private int result;
+private double result;
 
-public void add(int number1, int number2) {
+public void add(double number1, double number2) {
     result = number1 + number2;
 }
 
-public void subtrac(int number1, int number2) {
+public void subtrac(double number1, double number2) {
     result = number1 - number2;
 }
-public void multip(int number1, int number2) {
+public void multip(double number1, double number2) {
     result = number1 * number2;
 }
-public void divis(int number1, int number2) {
+public void divis(double number1, double number2) {
     result = number1 / number2;
 }
 
-public int getResult() {
+public double getResult() {
     return result;
 }
 }
